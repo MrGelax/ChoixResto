@@ -11,6 +11,6 @@ namespace ChoixResto.Models
         void CreerResto(string name, string phoneNumber);
         void ModifResto(int id,string name,string phoneNumber);
         bool RestaurantExiste(string name);
-        User ObtenirUtilisateur(string id);
+        User GetUser(string id);
     }
 }
